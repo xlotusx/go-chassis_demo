@@ -1,0 +1,6 @@
+servicecomb:
+  registry:
+    address: http://127.0.0.1:30100
+  protocols: # what kind of server you want to launch
+    rest: #launch a http server
+      listenAddress: 127.0.0.1:5001

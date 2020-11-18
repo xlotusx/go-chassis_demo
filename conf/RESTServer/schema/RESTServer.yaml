@@ -1,0 +1,16 @@
+swagger: "2.0"
+info:
+  title: ""
+  version: ""
+basePath: /
+paths:
+  /sayhello/{userid}:
+    post:
+      operationId: SayHello
+      consumes:
+      - '*/*'
+      produces:
+      - '*/*'
+      responses:
+        "200":
+          description: ""
