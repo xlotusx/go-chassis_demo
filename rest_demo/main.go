@@ -6,8 +6,10 @@ import (
 	"go-chassis_demo/presentation/service/hello"
 )
 
+// environment: CHASSIS_HOME=./rest_demo
+
 func main() {
-	//start all server you register in server/schemas.
+	// start all server you register in server/schemas.
 	chassis.RegisterSchema("rest", &hello.Presentation{})
 
 	if err := chassis.Init(); err != nil {

@@ -168,4 +168,4 @@ A test suite is available in the [harness](https://godoc.org/github.com/opentrac
 
 ## Licensing
 
-[Apache 2.0 License](./LICENSE).
+[Apache 2.0 License](LICENSE).

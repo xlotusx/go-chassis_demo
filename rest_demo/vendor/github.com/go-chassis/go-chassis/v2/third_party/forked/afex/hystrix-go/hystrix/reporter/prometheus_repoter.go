@@ -16,7 +16,7 @@ package reporter
 import (
 	"github.com/go-chassis/go-archaius"
 	circuit2 "github.com/go-chassis/go-chassis/v2/middleware/circuit"
-
+	
 	"strings"
 	"sync"
 	"time"
